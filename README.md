@@ -1,6 +1,8 @@
 # TN_QMH_Helper_Loop
 LabVIEWのQueued Message Handler(QMH)のヘルパーループです。メッセージキューはNIのQMHのテンプレートにあるもの(メッセージ：文字列、データ：バリアント)のものを前提とします。
 
+LabVIEWバージョン：2026 Q3
+
 使い方
 - Activate Helper Loop.viを呼び出してHelper Loopを動的に呼び出します。ここで指定したMHL Queueに指定したメッセージ+データを指定した周期でエンキューします。周期処理の停止はこのVIで出力したHelper Loop Queueを使用します。
 - Change Period of Helper Loop.viでエンキューの周期を変更できます。周期を変更した場合、変更したタイミングから周期で指定した時間経過後に最初の周期処理が行われます。

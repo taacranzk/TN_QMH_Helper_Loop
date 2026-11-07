@@ -3,6 +3,8 @@ LabVIEWのQueued Message Handler(QMH)でメッセージ+データを周期的に
 
 LabVIEWバージョン：2026 Q3
 
+**DQHMを追加しました。使い方はQMHと同じです。**
+
 使い方
 - Start Periodic Enqueue Message.viを呼び出してHelper Loopを動的に呼び出します。ただし、使っていないヘルパーループが存在する場合はその中の1つを再利用します。ここで指定したMHL Queueに指定したメッセージ+データを指定した周期でエンキューします。周期処理の停止はこのVIで出力したHelper Loopクラスを使用します。
 - Change Message Data.viでエンキューするデータを変更できます。周期を変更した場合、変更したタイミングから周期で指定した時間経過後に最初の周期処理が行われます。

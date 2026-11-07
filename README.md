@@ -1,5 +1,5 @@
 # TN_QMH_Helper_Loop
-LabVIEWのQueued Message Handler(QMH)のヘルパーループです。メッセージキューはNIのQMHのテンプレートにあるもの(メッセージ：文字列、データ：バリアント)のものを前提とします。
+LabVIEWのQueued Message Handler(QMH)でメッセージ+データを周期的にエンキューするクラスです。メッセージキューはNIのQMHのテンプレートにあるもの(メッセージ：文字列、データ：バリアント)のものを前提とします。
 
 LabVIEWバージョン：2026 Q3
 
